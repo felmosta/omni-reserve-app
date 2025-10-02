@@ -1,0 +1,104 @@
+{
+  "appName": "OmniReserve",
+  "welcomeMessage": "Bonjour, {{name}}",
+  "navbar": {
+    "findService": "Trouver un service",
+    "myReservations": "Mes réservations",
+    "dashboard": "Tableau de bord",
+    "profile": "Profil",
+    "bookings": "Réservations"
+  },
+  "home": {
+    "title": "Trouvez et réservez votre prochain service",
+    "subtitle": "Restaurants, médecins, coiffeurs et plus encore. Tout en un seul endroit.",
+    "searchPlaceholder": "Rechercher par nom ou adresse...",
+    "allServiceTypes": "Tous les types de service",
+    "anyRating": "Toutes les notes",
+    "rating4plus": "4 étoiles et plus",
+    "rating3plus": "3 étoiles et plus",
+    "noBusinessesFound": "Aucune entreprise trouvée",
+    "adjustSearch": "Essayez d'ajuster vos filtres de recherche ou revenez plus tard."
+  },
+  "business": {
+    "bookService": "Réserver un service",
+    "selectService": "1. Choisissez un service",
+    "selectDate": "2. Choisissez une date",
+    "availableTimes": "3. Choisissez une heure",
+    "noSlots": "Aucun créneau disponible pour cette date. Veuillez essayer un autre jour.",
+    "selectServiceFirst": "Veuillez choisir un service pour voir les créneaux disponibles.",
+    "confirmBookingTitle": "Confirmez votre réservation",
+    "business": "Entreprise",
+    "service": "Service"
+  },
+  "reservations": {
+    "myReservations": "Mes réservations",
+    "cancel": "Annuler",
+    "noReservations": "Aucune réservation pour le moment",
+    "bookFirstService": "Trouvez un service sur la page d'accueil pour effectuer votre première réservation !"
+  },
+  "dashboard": {
+    "welcome": "Bienvenue, {{name}} !",
+    "notRegistered": "Vous n'avez pas encore enregistré d'entreprise. Lancez-vous maintenant !",
+    "registerYourBusiness": "Enregistrer votre entreprise",
+    "dashboardFor": "Tableau de bord pour {{businessName}}",
+    "upcomingReservations": "Réservations à venir",
+    "totalBookings": "Réservations confirmées totales",
+    "serviceType": "Type de service",
+    "quickActions": "Actions rapides",
+    "manageBookings": "Gérer les réservations",
+    "editProfile": "Modifier le profil",
+    "currentPlan": "Plan Actuel : {{plan}}",
+    "quotaUsed": "{{used}} sur {{total}} réservations mensuelles utilisées.",
+    "upgradePlan": "Passer à Premium"
+  },
+  "profile": {
+    "manageProfile": "Gérer le profil de l'entreprise",
+    "registerFirst": "Vous devez <0>enregistrer une entreprise</0> avant de pouvoir gérer son profil.",
+    "businessInfo": "Informations sur l'entreprise",
+    "businessName": "Nom de l'entreprise",
+    "address": "Adresse",
+    "description": "Description",
+    "manageServices": "Gérer les services",
+    "remove": "Supprimer",
+    "addNewService": "Ajouter un nouveau service",
+    "serviceName": "Nom du service (ex: Coupe homme)",
+    "serviceDescription": "Description du service (optionnel)",
+    "duration": "Durée (en minutes)",
+    "addService": "Ajouter le service",
+    "weeklyAvailability": "Disponibilités hebdomadaires",
+    "open": "Ouvert",
+    "saveChanges": "Enregistrer les modifications"
+  },
+  "bookings": {
+    "manageFor": "Gérer les réservations pour {{businessName}}",
+    "client": "Client",
+    "service": "Service",
+    "dateTime": "Date et heure",
+    "status": "Statut",
+    "actions": "Actions",
+    "noActions": "N/A",
+    "noBookings": "Aucune réservation à afficher.",
+    "shareProfile": "Partagez votre profil avec des clients pour commencer à recevoir des réservations."
+  },
+  "common": {
+    "loading": "Chargement...",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "confirmed": "Confirmée",
+    "cancelled": "Annulée",
+    "pending": "En attente",
+    "minutes": "{{count}} min",
+    "minutes_plural": "{{count}} mins"
+  },
+  "serviceTypes": {
+    "Restaurant": "Restaurant",
+    "Doctor": "Médecin",
+    "Hairdresser": "Coiffeur",
+    "Gym": "Salle de sport",
+    "Tutor": "Tuteur"
+  },
+  "plans": {
+    "FREE": "Gratuit",
+    "PREMIUM": "Premium"
+  }
+}

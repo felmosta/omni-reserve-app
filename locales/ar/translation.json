@@ -1,0 +1,104 @@
+{
+  "appName": "OmniReserve",
+  "welcomeMessage": "أهلاً، {{name}}",
+  "navbar": {
+    "findService": "ابحث عن خدمة",
+    "myReservations": "حجوزاتي",
+    "dashboard": "لوحة التحكم",
+    "profile": "الملف الشخصي",
+    "bookings": "الحجوزات"
+  },
+  "home": {
+    "title": "ابحث واحجز خدمتك القادمة",
+    "subtitle": "مطاعم، أطباء، مصففو شعر والمزيد. كل ذلك في مكان واحد.",
+    "searchPlaceholder": "ابحث بالاسم أو العنوان...",
+    "allServiceTypes": "جميع أنواع الخدمات",
+    "anyRating": "أي تقييم",
+    "rating4plus": "4 نجوم وأكثر",
+    "rating3plus": "3 نجوم وأكثر",
+    "noBusinessesFound": "لم يتم العثور على أعمال",
+    "adjustSearch": "حاول تعديل فلاتر البحث أو تحقق مرة أخرى لاحقًا."
+  },
+  "business": {
+    "bookService": "احجز خدمة",
+    "selectService": "1. اختر خدمة",
+    "selectDate": "2. اختر تاريخًا",
+    "availableTimes": "3. اختر وقتًا متاحًا",
+    "noSlots": "لا توجد مواعيد متاحة في هذا التاريخ. يرجى تجربة يوم آخر.",
+    "selectServiceFirst": "يرجى اختيار خدمة لرؤية الأوقات المتاحة.",
+    "confirmBookingTitle": "تأكيد حجزك",
+    "business": "العمل",
+    "service": "الخدمة"
+  },
+  "reservations": {
+    "myReservations": "حجوزاتي",
+    "cancel": "إلغاء",
+    "noReservations": "لا توجد حجوزات بعد",
+    "bookFirstService": "ابحث عن خدمة في الصفحة الرئيسية لإجراء حجزك الأول!"
+  },
+  "dashboard": {
+    "welcome": "أهلاً بك، {{name}}!",
+    "notRegistered": "لم تقم بتسجيل عمل تجاري بعد. ابدأ الآن!",
+    "registerYourBusiness": "سجل عملك التجاري",
+    "dashboardFor": "لوحة تحكم لـ {{businessName}}",
+    "upcomingReservations": "الحجوزات القادمة",
+    "totalBookings": "إجمالي الحجوزات المؤكدة",
+    "serviceType": "نوع الخدمة",
+    "quickActions": "إجراءات سريعة",
+    "manageBookings": "إدارة الحجوزات",
+    "editProfile": "تعديل الملف الشخصي",
+    "currentPlan": "الخطة الحالية: {{plan}}",
+    "quotaUsed": "تم استخدام {{used}} من {{total}} حجز شهري.",
+    "upgradePlan": "الترقية إلى بريميوم"
+  },
+  "profile": {
+    "manageProfile": "إدارة الملف التجاري",
+    "registerFirst": "تحتاج إلى <0>تسجيل عمل تجاري</0> قبل أن تتمكن من إدارة ملفه الشخصي.",
+    "businessInfo": "معلومات العمل",
+    "businessName": "اسم العمل",
+    "address": "العنوان",
+    "description": "الوصف",
+    "manageServices": "إدارة الخدمات",
+    "remove": "إزالة",
+    "addNewService": "إضافة خدمة جديدة",
+    "serviceName": "اسم الخدمة (مثال: قصة شعر للرجال)",
+    "serviceDescription": "وصف الخدمة (اختياري)",
+    "duration": "المدة (بالدقائق)",
+    "addService": "إضافة الخدمة",
+    "weeklyAvailability": "التوفر الأسبوعي",
+    "open": "مفتوح",
+    "saveChanges": "حفظ التغييرات"
+  },
+  "bookings": {
+    "manageFor": "إدارة حجوزات {{businessName}}",
+    "client": "العميل",
+    "service": "الخدمة",
+    "dateTime": "التاريخ والوقت",
+    "status": "الحالة",
+    "actions": "الإجراءات",
+    "noActions": "لا يوجد",
+    "noBookings": "لا توجد حجوزات لعرضها.",
+    "shareProfile": "شارك ملفك الشخصي مع العملاء لبدء تلقي الحجوزات."
+  },
+  "common": {
+    "loading": "جار التحميل...",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "confirmed": "مؤكد",
+    "cancelled": "ملغى",
+    "pending": "قيد الانتظار",
+    "minutes": "{{count}} دقيقة",
+    "minutes_plural": "{{count}} دقائق"
+  },
+  "serviceTypes": {
+    "Restaurant": "مطعم",
+    "Doctor": "طبيب",
+    "Hairdresser": "مصفف شعر",
+    "Gym": "صالة رياضية",
+    "Tutor": "مدرس خصوصي"
+  },
+  "plans": {
+    "FREE": "مجاني",
+    "PREMIUM": "بريميوم"
+  }
+}

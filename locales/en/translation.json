@@ -1,0 +1,104 @@
+{
+  "appName": "OmniReserve",
+  "welcomeMessage": "Hi, {{name}}",
+  "navbar": {
+    "findService": "Find a Service",
+    "myReservations": "My Reservations",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "bookings": "Bookings"
+  },
+  "home": {
+    "title": "Find & Book Your Next Service",
+    "subtitle": "Restaurants, doctors, hairdressers and more. All in one place.",
+    "searchPlaceholder": "Search by name or address...",
+    "allServiceTypes": "All Service Types",
+    "anyRating": "Any Rating",
+    "rating4plus": "4 stars & up",
+    "rating3plus": "3 stars & up",
+    "noBusinessesFound": "No Businesses Found",
+    "adjustSearch": "Try adjusting your search filters or check back later."
+  },
+  "business": {
+    "bookService": "Book a Service",
+    "selectService": "1. Select a Service",
+    "selectDate": "2. Select a Date",
+    "availableTimes": "3. Select an Available Time",
+    "noSlots": "No available time slots for this date. Please try another day.",
+    "selectServiceFirst": "Please select a service to see available times.",
+    "confirmBookingTitle": "Confirm Your Reservation",
+    "business": "Business",
+    "service": "Service"
+  },
+  "reservations": {
+    "myReservations": "My Reservations",
+    "cancel": "Cancel",
+    "noReservations": "No Reservations Yet",
+    "bookFirstService": "Find a service on the home page to make your first booking!"
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}!",
+    "notRegistered": "You haven't registered a business yet. Get started now!",
+    "registerYourBusiness": "Register Your Business",
+    "dashboardFor": "Dashboard for {{businessName}}",
+    "upcomingReservations": "Upcoming Reservations",
+    "totalBookings": "Total Confirmed Bookings",
+    "serviceType": "Service Type",
+    "quickActions": "Quick Actions",
+    "manageBookings": "Manage Bookings",
+    "editProfile": "Edit Profile",
+    "currentPlan": "Current Plan: {{plan}}",
+    "quotaUsed": "{{used}} of {{total}} monthly bookings used.",
+    "upgradePlan": "Upgrade to Premium"
+  },
+  "profile": {
+    "manageProfile": "Manage Business Profile",
+    "registerFirst": "You need to <0>register a business</0> before you can manage its profile.",
+    "businessInfo": "Business Information",
+    "businessName": "Business Name",
+    "address": "Address",
+    "description": "Description",
+    "manageServices": "Manage Services",
+    "remove": "Remove",
+    "addNewService": "Add New Service",
+    "serviceName": "Service Name (e.g., Men's Haircut)",
+    "serviceDescription": "Service Description (optional)",
+    "duration": "Duration (in minutes)",
+    "addService": "Add Service",
+    "weeklyAvailability": "Weekly Availability",
+    "open": "Open",
+    "saveChanges": "Save Changes"
+  },
+  "bookings": {
+    "manageFor": "Manage Bookings for {{businessName}}",
+    "client": "Client",
+    "service": "Service",
+    "dateTime": "Date & Time",
+    "status": "Status",
+    "actions": "Actions",
+    "noActions": "N/A",
+    "noBookings": "No bookings to display.",
+    "shareProfile": "Share your profile with clients to start receiving bookings."
+  },
+  "common": {
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "minutes": "{{count}} min",
+    "minutes_plural": "{{count}} mins"
+  },
+  "serviceTypes": {
+    "Restaurant": "Restaurant",
+    "Doctor": "Doctor",
+    "Hairdresser": "Hairdresser",
+    "Gym": "Gym",
+    "Tutor": "Tutor"
+  },
+  "plans": {
+    "FREE": "Free",
+    "PREMIUM": "Premium"
+  }
+}
