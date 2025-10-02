@@ -11,6 +11,7 @@ import ManageBookingsPage from './pages/business/ManageBookingsPage';
 import RegisterBusinessPage from './pages/business/RegisterBusinessPage';
 import { Toaster } from 'react-hot-toast';
 import { useTranslation } from 'react-i18next';
+import { Analytics } from '@vercel/analytics/react';
 
 const App: React.FC = () => {
   const { i18n } = useTranslation();
@@ -50,6 +51,7 @@ const App: React.FC = () => {
           <Toaster position="top-center" reverseOrder={false} />
         </div>
       </HashRouter>
+      <Analytics />
     </AppProvider>
   );
 };
