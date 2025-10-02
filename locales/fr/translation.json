@@ -12,7 +12,7 @@
     "title": "Trouvez et réservez votre prochain service",
     "subtitle": "Restaurants, médecins, coiffeurs et plus encore. Tout en un seul endroit.",
     "searchPlaceholder": "Rechercher par nom ou adresse...",
-    "allServiceTypes": "Tous les types de service",
+    "allCategories": "Toutes les catégories",
     "anyRating": "Toutes les notes",
     "rating4plus": "4 étoiles et plus",
     "rating3plus": "3 étoiles et plus",
@@ -43,7 +43,7 @@
     "dashboardFor": "Tableau de bord pour {{businessName}}",
     "upcomingReservations": "Réservations à venir",
     "totalBookings": "Réservations confirmées totales",
-    "serviceType": "Type de service",
+    "category": "Catégorie",
     "quickActions": "Actions rapides",
     "manageBookings": "Gérer les réservations",
     "editProfile": "Modifier le profil",
@@ -56,6 +56,8 @@
     "registerFirst": "Vous devez <0>enregistrer une entreprise</0> avant de pouvoir gérer son profil.",
     "businessInfo": "Informations sur l'entreprise",
     "businessName": "Nom de l'entreprise",
+    "businessCategory": "Catégorie de l'entreprise",
+    "categoryPlaceholder": "ex: Restaurant, Salon de coiffure, Clinique",
     "address": "Adresse",
     "description": "Description",
     "manageServices": "Gérer les services",
@@ -89,13 +91,6 @@
     "pending": "En attente",
     "minutes": "{{count}} min",
     "minutes_plural": "{{count}} mins"
-  },
-  "serviceTypes": {
-    "Restaurant": "Restaurant",
-    "Doctor": "Médecin",
-    "Hairdresser": "Coiffeur",
-    "Gym": "Salle de sport",
-    "Tutor": "Tuteur"
   },
   "plans": {
     "FREE": "Gratuit",

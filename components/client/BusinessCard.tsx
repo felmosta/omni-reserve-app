@@ -19,7 +19,7 @@ const BusinessCard: React.FC<BusinessCardProps> = ({ business }) => {
         <div className="p-4">
           <h3 className="text-lg font-bold text-textPrimary">{business.name}</h3>
           <div className="flex justify-between items-center my-1">
-            <p className="text-sm text-secondary font-semibold">{t(`serviceTypes.${business.serviceType}`)}</p>
+            <p className="text-sm text-secondary font-semibold">{business.category}</p>
             <div className="flex items-center text-accent font-bold">
               {StarIcon}
               <span className="ms-1">{business.rating.toFixed(1)}</span>

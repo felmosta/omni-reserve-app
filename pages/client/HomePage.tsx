@@ -2,26 +2,28 @@ import React, { useState, useMemo } from 'react';
 import { useAppContext } from '../../hooks/useAppContext';
 import BusinessCard from '../../components/client/BusinessCard';
 import Spinner from '../../components/shared/Spinner';
-import { ServiceType } from '../../types';
-import { SERVICE_TYPES } from '../../constants';
 import { useTranslation } from 'react-i18next';
 
 const HomePage: React.FC = () => {
   const { businesses, isLoading } = useAppContext();
   const { t } = useTranslation();
   const [searchTerm, setSearchTerm] = useState('');
-  const [selectedType, setSelectedType] = useState<ServiceType | 'All'>('All');
+  const [selectedCategory, setSelectedCategory] = useState<string>('All');
   const [selectedRating, setSelectedRating] = useState<number>(0);
+
+  const categories = useMemo(() => {
+    return [...new Set(businesses.map(b => b.category))].sort();
+  }, [businesses]);
 
   const filteredBusinesses = useMemo(() => {
     return businesses.filter(business => {
       const matchesSearch = business.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                             business.address.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesType = selectedType === 'All' || business.serviceType === selectedType;
+      const matchesCategory = selectedCategory === 'All' || business.category === selectedCategory;
       const matchesRating = selectedRating === 0 || business.rating >= selectedRating;
-      return matchesSearch && matchesType && matchesRating;
+      return matchesSearch && matchesCategory && matchesRating;
     });
-  }, [businesses, searchTerm, selectedType, selectedRating]);
+  }, [businesses, searchTerm, selectedCategory, selectedRating]);
 
   if (isLoading && businesses.length === 0) {
     return <Spinner />;
@@ -44,12 +46,12 @@ const HomePage: React.FC = () => {
         />
         <select
           className="w-full md:w-1/3 p-3 border rounded-md focus:ring-2 focus:ring-primary focus:outline-none bg-white"
-          value={selectedType}
-          onChange={(e) => setSelectedType(e.target.value as ServiceType | 'All')}
+          value={selectedCategory}
+          onChange={(e) => setSelectedCategory(e.target.value)}
         >
-          <option value="All">{t('home.allServiceTypes')}</option>
-          {SERVICE_TYPES.map(type => (
-            <option key={type} value={type}>{t(`serviceTypes.${type}`)}</option>
+          <option value="All">{t('home.allCategories')}</option>
+          {categories.map(category => (
+            <option key={category} value={category}>{category}</option>
           ))}
         </select>
         <select

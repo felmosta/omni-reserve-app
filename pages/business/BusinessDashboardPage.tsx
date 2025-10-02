@@ -73,8 +73,8 @@ const BusinessDashboardPage: React.FC = () => {
           <p className="text-textSecondary">{t('dashboard.totalBookings')}</p>
         </Card>
         <Card className="p-6 text-center">
-          <h2 className="text-2xl font-bold text-primary pt-2">{t(`serviceTypes.${business.serviceType}`)}</h2>
-          <p className="text-textSecondary">{t('dashboard.serviceType')}</p>
+          <h2 className="text-2xl font-bold text-primary pt-2">{business.category}</h2>
+          <p className="text-textSecondary">{t('dashboard.category')}</p>
         </Card>
       </div>
 

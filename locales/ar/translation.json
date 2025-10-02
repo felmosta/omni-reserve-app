@@ -12,7 +12,7 @@
     "title": "ابحث واحجز خدمتك القادمة",
     "subtitle": "مطاعم، أطباء، مصففو شعر والمزيد. كل ذلك في مكان واحد.",
     "searchPlaceholder": "ابحث بالاسم أو العنوان...",
-    "allServiceTypes": "جميع أنواع الخدمات",
+    "allCategories": "جميع الفئات",
     "anyRating": "أي تقييم",
     "rating4plus": "4 نجوم وأكثر",
     "rating3plus": "3 نجوم وأكثر",
@@ -43,7 +43,7 @@
     "dashboardFor": "لوحة تحكم لـ {{businessName}}",
     "upcomingReservations": "الحجوزات القادمة",
     "totalBookings": "إجمالي الحجوزات المؤكدة",
-    "serviceType": "نوع الخدمة",
+    "category": "الفئة",
     "quickActions": "إجراءات سريعة",
     "manageBookings": "إدارة الحجوزات",
     "editProfile": "تعديل الملف الشخصي",
@@ -56,6 +56,8 @@
     "registerFirst": "تحتاج إلى <0>تسجيل عمل تجاري</0> قبل أن تتمكن من إدارة ملفه الشخصي.",
     "businessInfo": "معلومات العمل",
     "businessName": "اسم العمل",
+    "businessCategory": "فئة العمل",
+    "categoryPlaceholder": "مثال: مطعم، صالون حلاقة، عيادة",
     "address": "العنوان",
     "description": "الوصف",
     "manageServices": "إدارة الخدمات",
@@ -89,13 +91,6 @@
     "pending": "قيد الانتظار",
     "minutes": "{{count}} دقيقة",
     "minutes_plural": "{{count}} دقائق"
-  },
-  "serviceTypes": {
-    "Restaurant": "مطعم",
-    "Doctor": "طبيب",
-    "Hairdresser": "مصفف شعر",
-    "Gym": "صالة رياضية",
-    "Tutor": "مدرس خصوصي"
   },
   "plans": {
     "FREE": "مجاني",

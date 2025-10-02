@@ -12,7 +12,7 @@
     "title": "Find & Book Your Next Service",
     "subtitle": "Restaurants, doctors, hairdressers and more. All in one place.",
     "searchPlaceholder": "Search by name or address...",
-    "allServiceTypes": "All Service Types",
+    "allCategories": "All Categories",
     "anyRating": "Any Rating",
     "rating4plus": "4 stars & up",
     "rating3plus": "3 stars & up",
@@ -43,7 +43,7 @@
     "dashboardFor": "Dashboard for {{businessName}}",
     "upcomingReservations": "Upcoming Reservations",
     "totalBookings": "Total Confirmed Bookings",
-    "serviceType": "Service Type",
+    "category": "Category",
     "quickActions": "Quick Actions",
     "manageBookings": "Manage Bookings",
     "editProfile": "Edit Profile",
@@ -56,6 +56,8 @@
     "registerFirst": "You need to <0>register a business</0> before you can manage its profile.",
     "businessInfo": "Business Information",
     "businessName": "Business Name",
+    "businessCategory": "Business Category",
+    "categoryPlaceholder": "e.g., Restaurant, Hair Salon, Clinic",
     "address": "Address",
     "description": "Description",
     "manageServices": "Manage Services",
@@ -89,13 +91,6 @@
     "pending": "Pending",
     "minutes": "{{count}} min",
     "minutes_plural": "{{count}} mins"
-  },
-  "serviceTypes": {
-    "Restaurant": "Restaurant",
-    "Doctor": "Doctor",
-    "Hairdresser": "Hairdresser",
-    "Gym": "Gym",
-    "Tutor": "Tutor"
   },
   "plans": {
     "FREE": "Free",

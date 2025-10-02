@@ -5,7 +5,6 @@ import { UserRole, Service } from '../../types';
 import Button from '../../components/shared/Button';
 import Card from '../../components/shared/Card';
 import Spinner from '../../components/shared/Spinner';
-import { SERVICE_TYPES } from '../../constants';
 import { useTranslation, Trans } from 'react-i18next';
 
 const ProfilePage: React.FC = () => {
@@ -78,10 +77,8 @@ const ProfilePage: React.FC = () => {
             <input type="text" name="name" id="name" required className="mt-1 block w-full input-style" value={formData.name} onChange={handleInfoChange} />
           </div>
           <div>
-            <label htmlFor="serviceType" className="block text-sm font-medium text-textSecondary">{t('dashboard.serviceType')}</label>
-            <select name="serviceType" id="serviceType" required className="mt-1 block w-full input-style bg-white" value={formData.serviceType} onChange={handleInfoChange}>
-              {SERVICE_TYPES.map(type => <option key={type} value={type}>{t(`serviceTypes.${type}`)}</option>)}
-            </select>
+            <label htmlFor="category" className="block text-sm font-medium text-textSecondary">{t('profile.businessCategory')}</label>
+            <input type="text" name="category" id="category" placeholder={t('profile.categoryPlaceholder')} required className="mt-1 block w-full input-style" value={formData.category} onChange={handleInfoChange} />
           </div>
           <div>
             <label htmlFor="address" className="block text-sm font-medium text-textSecondary">{t('profile.address')}</label>

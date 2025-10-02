@@ -1,4 +1,4 @@
-import { Business, Booking, User, ServiceType, Availability, BookingStatus, TimeSlot, Plan } from '../types';
+import { Business, Booking, User, Availability, BookingStatus, TimeSlot, Plan } from '../types';
 import { USERS } from '../constants';
 
 // --- MOCK DATABASE ---
@@ -7,7 +7,7 @@ let businesses: Business[] = [
     id: 'biz1',
     ownerId: 'owner1',
     name: 'The Gourmet Place',
-    serviceType: ServiceType.RESTAURANT,
+    category: 'Restaurant',
     address: '123 Foodie Lane, Flavor Town',
     description: 'Exquisite dining experience with a modern twist on classic cuisine. Perfect for special occasions.',
     imageUrl: 'https://picsum.photos/seed/restaurant/800/600',
@@ -33,7 +33,7 @@ let businesses: Business[] = [
     id: 'biz2',
     ownerId: 'owner2-temp', // A placeholder owner
     name: 'City Central Clinic',
-    serviceType: ServiceType.DOCTOR,
+    category: 'Medical Clinic',
     address: '456 Health Ave, Wellness City',
     description: 'Comprehensive medical services with state-of-the-art facilities and experienced doctors.',
     imageUrl: 'https://picsum.photos/seed/doctor/800/600',
@@ -60,7 +60,7 @@ let businesses: Business[] = [
     id: 'biz3',
     ownerId: 'owner3-temp',
     name: 'Fresh Cuts Salon',
-    serviceType: ServiceType.HAIRDRESSER,
+    category: 'Hair Salon',
     address: '789 Style St, Glamour Ville',
     description: 'Trendy haircuts, vibrant colors, and relaxing treatments from our expert stylists.',
     imageUrl: 'https://picsum.photos/seed/hair/800/600',

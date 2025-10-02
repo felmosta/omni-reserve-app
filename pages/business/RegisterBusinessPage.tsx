@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useAppContext } from '../../hooks/useAppContext';
-import { ServiceType } from '../../types';
 import Button from '../../components/shared/Button';
 import Card from '../../components/shared/Card';
-import { SERVICE_TYPES } from '../../constants';
 import { useTranslation } from 'react-i18next';
 
 const RegisterBusinessPage: React.FC = () => {
@@ -13,7 +11,7 @@ const RegisterBusinessPage: React.FC = () => {
   const navigate = useNavigate();
   const [formData, setFormData] = useState({
     name: '',
-    serviceType: ServiceType.RESTAURANT,
+    category: '',
     address: '',
     description: '',
   });
@@ -55,10 +53,8 @@ const RegisterBusinessPage: React.FC = () => {
           <input type="text" name="name" id="name" required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm" value={formData.name} onChange={handleChange} />
         </div>
         <div>
-          <label htmlFor="serviceType" className="block text-sm font-medium text-textSecondary">{t('dashboard.serviceType')}</label>
-          <select name="serviceType" id="serviceType" required className="mt-1 block w-full ps-3 pe-10 py-2 text-base border-gray-300 focus:outline-none focus:ring-primary focus:border-primary sm:text-sm rounded-md bg-white" value={formData.serviceType} onChange={handleChange}>
-            {SERVICE_TYPES.map(type => <option key={type} value={type}>{t(`serviceTypes.${type}`)}</option>)}
-          </select>
+          <label htmlFor="category" className="block text-sm font-medium text-textSecondary">{t('profile.businessCategory')}</label>
+          <input type="text" name="category" id="category" placeholder={t('profile.categoryPlaceholder')} required className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-primary focus:border-primary sm:text-sm" value={formData.category} onChange={handleChange} />
         </div>
         <div>
           <label htmlFor="address" className="block text-sm font-medium text-textSecondary">{t('profile.address')}</label>
