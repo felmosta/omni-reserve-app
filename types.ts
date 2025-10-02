@@ -3,14 +3,6 @@ export enum UserRole {
   BUSINESS_OWNER = 'BUSINESS_OWNER',
 }
 
-export enum ServiceType {
-  RESTAURANT = 'Restaurant',
-  DOCTOR = 'Doctor',
-  HAIRDRESSER = 'Hairdresser',
-  GYM = 'Gym',
-  TUTOR = 'Tutor',
-}
-
 export enum Plan {
   FREE = 'FREE',
   PREMIUM = 'PREMIUM',
@@ -35,7 +27,7 @@ export interface Business {
   id: string;
   ownerId: string;
   name: string;
-  serviceType: ServiceType;
+  category: string;
   address: string;
   description: string;
   imageUrl: string;

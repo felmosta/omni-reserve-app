@@ -1,8 +1,6 @@
 
 import React from 'react';
-import { User, UserRole, ServiceType } from './types';
-
-export const SERVICE_TYPES = Object.values(ServiceType);
+import { User, UserRole } from './types';
 
 export const USERS: { [key: string]: User } = {
   client1: {
