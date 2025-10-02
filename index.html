@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>OmniReserve</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><path fill='%234338ca' d='M50,5A45,45,0,1,0,95,50,45,45,0,0,0,50,5Zm22.7,28.2L48.5,57.4a4,4,0,0,1-5.4,0l-11-11a4,4,0,0,1,5.4-5.9l8.3,8.3L67.3,27.3a4,4,0,1,1,5.4,5.9Z'/></svg>">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -11,11 +12,15 @@
           extend: {
             colors: {
               primary: {
-                DEFAULT: '#4f46e5',
-                hover: '#4338ca',
-                focus: '#6366f1',
+                light: '#6d28d9',
+                DEFAULT: '#5b21b6',
+                hover: '#4c1d95',
+                focus: '#6d28d9',
               },
-              secondary: '#10b981',
+              secondary: {
+                DEFAULT: '#0d9488', // Teal
+                hover: '#0f766e',
+              },
               accent: '#f59e0b',
               background: '#f8fafc',
               surface: '#ffffff',
